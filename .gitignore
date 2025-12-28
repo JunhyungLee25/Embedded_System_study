@@ -1,0 +1,16 @@
+# 확장자가 없는 실행 파일 
+led_mmap
+button_mmap
+keyboard_mmap
+
+# 일반적인 컴파일 결과물
+*.out
+*.o
+*.ko
+*.mod.c
+*.mod
+*.symvers
+*.order
+
+# Temp files
+.DS_Store
