@@ -12,5 +12,10 @@ keyboard_mmap
 *.symvers
 *.order
 
+# Huge source trees
+buildroot/
+kernel/
+linux/
+
 # Temp files
 .DS_Store
