@@ -38,7 +38,7 @@ int main(int argc, char **argv) {
 
     gpio = (volatile unsigned int*)addr_gpio;
 
-    // gpio[GPFSEL1 / 4] |= (0 << 21);
+    gpio[GPFSEL1 / 4] |= (0 << 21);
 
     while(1) {
         prev = tmp;

@@ -2,7 +2,9 @@
 led_mmap
 button_mmap
 keyboard_mmap
-
+major_num_example
+homework
+led_button_example
 # 일반적인 컴파일 결과물
 *.out
 *.o
@@ -11,6 +13,8 @@ keyboard_mmap
 *.mod
 *.symvers
 *.order
+*.cmd
+*.txt
 
 # Huge source trees
 buildroot/
