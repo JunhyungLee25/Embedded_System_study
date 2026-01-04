@@ -2,9 +2,11 @@
 led_mmap
 button_mmap
 keyboard_mmap
-major_num_example
 homework
-led_button_example
+
+# 폴더랑 이름 같으면
+/major_num_example
+/led_button_example
 # 일반적인 컴파일 결과물
 *.out
 *.o
