@@ -24,9 +24,10 @@ static ssize_t driver_write(struct file *File, const char *user_buffer, size_t c
     unsigned short value = 0;
     int i;
 
+    // 유저 공간의 데이터를 커널 공간의 value 변수로 안전하게 복사
     if (copy_from_user(&value, user_buffer, sizeof(unsigned short))) return -EFAULT;
 
-    // 12개 비트를 순회하며 각 GPIO에 상태 적용 (Active Low 등 논리는 앱에서 처리하여 전달됨)
+    // 12개 비트를 순회하며 각 GPIO에 0 or 1 적용 
     for (i = 0; i < 12; i++) {
         gpio_set_value(seg_gpios[i], (value >> i) & 0x01);
     }
