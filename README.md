@@ -3,5 +3,5 @@
 
 [![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi%204-red)]() 
 [![OS](https://img.shields.io/badge/OS-Ubuntu%2020.04%20LTS-orange)]()
-[![Language](https://img.shields.io/badge/Language-C-blue)
+[![Language](https://img.shields.io/badge/Language-C-blue)]
 
