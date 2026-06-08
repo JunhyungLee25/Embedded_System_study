@@ -7,4 +7,5 @@
 
 ## Demo
 
-[최종 결과물 동작 영상](assets/demo/final-result-demo.mp4)
+- [LED 제어 - 05_Device_Driver_02 결과](assets/demo/led-control.mp4)
+- [Counter 제어 - 03 결과](assets/demo/counter-control.mp4)
